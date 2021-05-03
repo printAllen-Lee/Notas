@@ -9,25 +9,44 @@
     <style>
      body{
         font: normal 14px arial;
+        
      }
      textarea{width: 100%;overflow-y: hidden;font:normal 14px arial;border: 0 none; outline: 0;}    
   
-    
+    button#ligar{
+        color: rgba(196, 62, 0, 0.939);
+        
+    }
+    button#desligar{
+        color: rgb(21, 22, 13);
+    }
     </style>
 </head>
-<body>
-    <!-- <p id = "title">Bloco de notas</p> -->
-    <textarea placeholder="..." rows="30"></textarea>
-    <!-- <script>
-        var p = window.document.querySelector('p#title')
-        p.addEventListener('mouseenter',entrar)
-        p.addEventListener('mouseout',sair)
-        function entrar() {
-            p.style.color = 'red'
+<body id = bod>
+  <button id = 'ligar'>Dark on</button>
+  <button id = 'desligar'>Dark off</button>
+  
+   
+    <textarea id = 'te' placeholder="..." rows="40"></textarea>
+    <!-- esse script é usado para implementar o dark mode -->
+    <script>
+       var on = window.document.querySelector('button#ligar')
+       var off = window.document.querySelector('button#desligar')
+        on.addEventListener('click',clicar)
+        off.addEventListener('click',clicar2)
+        
+        function clicar() {
+            
+            bod.style.background = '#212529'
+            te.style.background = '#899095'
         }
-        function sair() {
-            p.style.color = 'black'
+              
+        function clicar2() {
+        
+            bod.style.background = 'white'
+            te.style.background = 'white'
+            
         }
-    </script> -->
+   </script>
 </body>
 </html>
