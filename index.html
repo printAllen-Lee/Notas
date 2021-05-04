@@ -5,48 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="minical.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
     <title>Bloco de notas</title>
-    <style>
-     body{
-        font: normal 14px arial;
-        
-     }
-     textarea{width: 100%;overflow-y: hidden;font:normal 14px arial;border: 0 none; outline: 0;}    
-  
-    button#ligar{
-        color: rgba(196, 62, 0, 0.939);
-        
-    }
-    button#desligar{
-        color: rgb(21, 22, 13);
-    }
-    </style>
+    
 </head>
 <body id = bod>
   <button id = 'ligar'>Dark on</button>
   <button id = 'desligar'>Dark off</button>
-  
+
    
     <textarea id = 'te' placeholder="..." rows="40"></textarea>
-    <!-- esse script é usado para implementar o dark mode -->
-    <script>
-       var on = window.document.querySelector('button#ligar')
-       var off = window.document.querySelector('button#desligar')
-        on.addEventListener('click',clicar)
-        off.addEventListener('click',clicar2)
-        
-        function clicar() {
-            
-            bod.style.background = '#212529'
-            te.style.background = '#899095'
-        }
-              
-        function clicar2() {
-        
-            bod.style.background = 'white'
-            te.style.background = 'white'
-            
-        }
-   </script>
+    <script src = 'script.js'>  </script>
+   
 </body>
 </html>

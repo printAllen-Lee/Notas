@@ -1,0 +1,13 @@
+body{
+    font: normal 14px arial;
+    
+ }
+ textarea{width: 100%;overflow-y: hidden;font:normal 14px arial;border: 0 none; outline: 0;}    
+
+button#ligar{
+    color: rgba(196, 62, 0, 0.939);
+    
+}
+button#desligar{
+    color: rgb(21, 22, 13);
+}
