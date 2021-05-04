@@ -16,3 +16,4 @@ var off = window.document.querySelector('button#desligar')
      te.style.background = 'white'
      
  }
+
