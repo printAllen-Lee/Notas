@@ -16,9 +16,8 @@ var off = window.document.querySelector('button#desligar')
      bod.style.background = 'white'
      te.style.background = 'white'
      
- }
-
- function hours () {
+}
+function hours () {
     var hours = document.getElementById ('hours')
  
     var date1 = new Date ()
@@ -38,10 +37,7 @@ var off = window.document.querySelector('button#desligar')
         }
                 
     hours.textContent = `${gthours}:${gtminutes}:${gtseconds}`
-    
-
 }
 
 var tictac = setInterval (hours, 1000)
 hours()
-
