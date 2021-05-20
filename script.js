@@ -38,7 +38,10 @@ var off = window.document.querySelector('button#desligar')
         }
                 
     hours.textContent = `${gthours}:${gtminutes}:${gtseconds}`
+    
+
 }
+
 var tictac = setInterval (hours, 1000)
 hours()
 
