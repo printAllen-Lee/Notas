@@ -1,4 +1,4 @@
-// esse script é usado para implementar o dark mode 
+// esse script é usado para inplementar o dark mode 
 var on = window.document.querySelector('button#ligar')
 var off = window.document.querySelector('button#desligar')
  on.addEventListener('click',clicar1)
