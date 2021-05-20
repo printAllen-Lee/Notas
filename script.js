@@ -1,17 +1,18 @@
 // esse script é usado para inplementar o dark mode 
+hora = window.document.querySelector('div#hours')
 var on = window.document.querySelector('button#ligar')
 var off = window.document.querySelector('button#desligar')
  on.addEventListener('click',clicar1)
  off.addEventListener('click',clicar2)
  
  function clicar1() {
-     
+     hora.style.color = 'red'
      bod.style.background = '#212529'
      te.style.background = '#899095'
  }
        
  function clicar2() {
- 
+     hora.style.color = 'black'
      bod.style.background = 'white'
      te.style.background = 'white'
      

@@ -13,6 +13,9 @@ button#ligar{
 button#desligar{
     color: rgb(21, 22, 13);
 }  
+div{
+    color: rgb(0, 0, 0);
+}
 
  
 /* .power-button{
