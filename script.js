@@ -1,4 +1,4 @@
-// esse script é usado para inplementar o dark mode 
+  // esse script é usado para inplementar o dark mode 
 hora = window.document.querySelector('div#hours')
 var on = window.document.querySelector('button#ligar')
 var off = window.document.querySelector('button#desligar')
